@@ -1,6 +1,5 @@
 import {
   GithubIcon,
-  InstagramIcon,
   PenIcon,
   TwitterIcon,
   LucideLinkedin,
