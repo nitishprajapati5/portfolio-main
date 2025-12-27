@@ -38,7 +38,8 @@ export default function Introduction() {
 
       <div className="mt-8 flex flex-wrap gap-4">
         {/* Primary button */}
-        <button
+        <a
+          href="mailto:nitishprajapati180@gmail.com"
           className="
     cursor-pointer
       inline-flex items-center gap-2
@@ -56,11 +57,13 @@ export default function Introduction() {
     "
         >
           <Send className="h-4 w-4" />
-          <span>Get in Touch</span>
-        </button>
+          Get in Touch
+        </a>
 
         {/* Secondary button */}
-        <button
+        <a
+          href="/resume.pdf"
+          target="_blank"
           className="
         cursor-pointer
        inline-flex items-center gap-2
@@ -79,7 +82,7 @@ export default function Introduction() {
         >
           <Download className="h-4 w-4" />
           <span>Download Resume / CV</span>
-        </button>
+        </a>
       </div>
     </section>
   );

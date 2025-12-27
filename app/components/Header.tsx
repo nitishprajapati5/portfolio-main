@@ -1,11 +1,19 @@
 export default function Header() {
+
+    const data = [
+      { name: "Home", href: "/" },
+      { name: "Work", href: "/work" },
+      { name: "Blogs", href: "/blogs" },
+      { name: "Projects", href: "/projects" },
+    ];
+
   return (
     <div>
       <div className="flex flex-row gap-6">
-        {["Work", "Blogs", "Projects"].map((item) => (
+        {data.map((item) => (
           <a
-            key={item}
-            href={`/${item.toLowerCase()}`}
+            key={item.name}
+            href={item.href}
             className="
               
               relative cursor-pointer
@@ -16,7 +24,7 @@ export default function Header() {
               hover:after:w-full
             "
           >
-            {item}
+            {item.name}
           </a>
         ))}
       </div>

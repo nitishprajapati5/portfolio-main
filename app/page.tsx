@@ -1,5 +1,6 @@
 import Blogs from "./components/Blogs";
 import Books from "./components/Books";
+import ContactCard from "./components/ContactMe";
 import Header from "./components/Header";
 import Introduction from "./components/Introduction";
 import Projects from "./components/Projects";
@@ -24,6 +25,7 @@ export default function Home() {
         <Projects />
         <Blogs/>
         <Books />
+        <ContactCard />
       </div>
     </div>
   );

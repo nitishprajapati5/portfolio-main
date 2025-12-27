@@ -10,27 +10,23 @@ const socials = [
   {
     icon: LucideLinkedin,
     label: "LinkedIn",
-    link: "https://www.linkedin.com/in/nitish-mahendraprajapati/",
+    link: "https://www.linkedin.com/in/nitish-prajapati-15748a154/",
   },
-  {
-    icon: InstagramIcon,
-    label: "Instagram",
-    link: "https://www.instagram.com/nitish.m.prajapati/",
-  },
+
   {
     icon: TwitterIcon,
     label: "Twitter",
-    link: "https://twitter.com/Nitish_MPrajapati",
+    link: "https://x.com/niti_prajapati",
   },
   {
     icon: GithubIcon,
     label: "GitHub",
-    link: "https://github.com/NitishMahendraprajapati",
+    link: "https://github.com/nitishprajapati5",
   },
   {
     icon: PenIcon,
-    label: "Blog",
-    link: "https://nitishmahendraprajapati.hashnode.dev/",
+    label: "Medium",
+    link: "https://medium.com/@nitishprajapati180",
   },
 ];
 
